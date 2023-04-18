@@ -29,6 +29,8 @@ Label-Studio-Yolo-Backend is a project that provides an efficient way to integra
 4. Clone this repository and copy the Python file to the appropriate directory in your Label Studio ML Backend setup.
 5. Configure your Label Studio project to use the Label-Studio-Yolo-Backend.
 
+**Important Note**: In some cases, you might need to modify the `get_local_path` function in the `model.py` file of the `label-studio-ml` library. Please refer to this [issue comment](https://github.com/heartexlabs/label-studio-ml-backend/issues/143#issuecomment-1495685625) for more details and a potential solution.
+
 ## Acknowledgements
 
 This project was developed with the help of the GPT-4 language model, which also assisted in the creation of this README file.
